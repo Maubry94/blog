@@ -47,8 +47,11 @@
   </div>
 
   <h2>Number of post: {allPosts.length}</h2>
+  <h3>Article list:</h3>
   {#each allPosts as post}
-    <p>{post.title}</p>
+    <ul>
+      <li>{post.title}</li>
+    </ul>
   {/each}
 
   <!-- recent posts -->
