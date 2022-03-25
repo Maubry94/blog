@@ -47,6 +47,9 @@
   </div>
 
   <h2>Number of post: {allPosts.length}</h2>
+  {#each allPosts as post}
+    <p>{post.title}</p>
+  {/each}
 
   <!-- recent posts -->
   <h2 class="flex items-baseline gap-4 !mb-2">
