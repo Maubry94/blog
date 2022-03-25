@@ -9,7 +9,6 @@
       }
     }
   }
-  console.log(allPosts, recentPosts)
 </script>
 
 <script>
@@ -19,6 +18,8 @@
 
   export let recentPosts
   export let allPosts
+
+  console.log(allPosts, recentPosts)
 </script>
 
 <svelte:head>
