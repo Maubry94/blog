@@ -9,6 +9,7 @@
       }
     }
   }
+  console.log(allPosts, recentPosts)
 </script>
 
 <script>
